@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 const Flatten = require('../lib/flatten');
 
-// console.log(process.argv);
 
-// 需要flatten的命令
-// 比如：node flatten.js deploy，cmd => deploy
+// command need to be flattened
+// for example, 'node flatten.js deploy'command is 'deploy'
 const cmd = process.argv[2] || 'start';
 
-// 打平后的命令
+// flattened command
 const flattenedCmds = Flatten.analyze(cmd);
 
 console.log(`[log] Npm command to be flattened is [${cmd}]`);
