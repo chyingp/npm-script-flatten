@@ -2,8 +2,8 @@
   "name": "npm-script-flatten",
   "version": "1.0.0",
   "description": "flatten npm script",
-  "main": "./lib/index.js",
-  "bin": "./lib/index.js",
+  "main": "./lib/flatten.js",
+  "bin": "./bin/flatten.js",
   "directories": {
     "lib": "lib"
   },
