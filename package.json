@@ -1,0 +1,24 @@
+{
+  "name": "npm-script-flatten",
+  "version": "1.0.0",
+  "description": "flatten npm script",
+  "main": "./lib/index.js",
+  "bin": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chyingp/npm-script-flatten.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chyingp/npm-script-flatten/issues"
+  },
+  "homepage": "https://github.com/chyingp/npm-script-flatten#readme"
+}
